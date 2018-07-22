@@ -65,7 +65,7 @@ function ajax_sumbit(){
 	var validator = $( "#form_feedback" ).validate();
 	valid = validator.form();
 if(valid == true) {
-	alert("Succses");
+
 
 	var danie = $("#form_feedback").serialize();
 
