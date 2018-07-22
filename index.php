@@ -36,8 +36,8 @@
 					<h4 class="field_margin">Опишите свой вопрос</h4> <br>
 					<textarea class="textarea_feedbacak" name="textarea" id="" cols="48" rows="10"></textarea> <br>
 					<div class="checkbox">
-					<label for="agree">Согласие на обработку данных </label>
-					<input type="checkbox" name="accept"> 
+					<label for="accept">Согласие на обработку данных </label>
+					<input type="checkbox" name="accept" id="accept"> 
 					</div>
 					<input class="field_margin" type="submit" value="Отправить" onclick="ajax_sumbit()">
 				
